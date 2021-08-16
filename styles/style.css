@@ -21,7 +21,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
     background-color: var(--color2);
 }
 
@@ -73,9 +73,7 @@ h2 {
     margin-right: 20px;
 }
 
-.main-logo {
-    animation: pulse 5s infinite ease-in-out;
-}
+
 
 header img {
     height: var(--header-height);
@@ -118,8 +116,11 @@ footer {
     padding: 5px;
     margin-bottom: 10%;
     border-radius: 7px;
-    background-color: rgb(7, 102, 102);
+    background-color: rgb(39, 211, 211);
     width: 150px;
+    position: fixed;
+    right: 25px;
+    top: 15px;
 }
 
 #button:hover {
@@ -134,22 +135,49 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 
-.images {
+.image-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    /* padding: 5px; */
     border: solid 2px black;
+    
     
 }
 
-p {
+p, ul {
     border: solid 2px black;
     background-color:hsla(187, 41%, 94%, 1);
     font-size: 1.5rem;
+    padding: 1px;
 
 }
 h3 {
     text-decoration: underline;
     text-transform: capitalize;
+}
+
+#results {
+    background-color: #82a6b1;
+    font-size: 2rem;
+    border: dashed 5px yellow;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    display: none;
+    position: fixed;
+    right: 25px;
+    top: 45px;
+    width: 15%;
+    height: 25%;
+    color:ivory;
+}
+
+.images {
+    /* width: 50%; */
+    height: 300px;
+    border: solid 1px black;
+}
+li {
+    list-style: square;
 }
