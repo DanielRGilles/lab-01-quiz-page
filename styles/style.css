@@ -139,6 +139,7 @@ footer {
     border: solid 2px black;
     padding: 50px;
     font-family: 'Roboto', sans-serif;
+    width: 75%;
 }
 
 .image-box {
@@ -193,4 +194,12 @@ li {
     background-color:hsla(187, 41%, 94%, 1);
     font-size: 1.5rem;
     padding: 1px;
+}
+#icon {
+    width: 150px;
+    height: auto;
+    position: fixed;
+    left: 5px;
+    top: 10px;
+    border: solid 2px black;
 }
