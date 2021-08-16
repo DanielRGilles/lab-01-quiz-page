@@ -194,6 +194,7 @@ li {
     background-color:hsla(187, 41%, 94%, 1);
     font-size: 1.5rem;
     padding: 1px;
+    text-align: start;
 }
 #icon {
     width: 150px;
