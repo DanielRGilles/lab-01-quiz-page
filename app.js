@@ -17,10 +17,15 @@ buttonEl.addEventListener('click', () => {
     if (!countsAsAYes(answer2)) correctResponses++;
     const answer3 = prompt('Are Aardvarks related to Elephants?');
     if (countsAsAYes(answer3)) correctResponses++;
+
+    // sending the results message
     resultsEl.textContent = `Hey ${firstName} ${lastName} you got ${correctResponses}/3 correct!`;
+    // alters the results box to be displayed after completion -- default is hidden
     resultsEl.style.display = 'inline'; // update DOM to reflect the new state
     
 });
+
+
   
  
   
