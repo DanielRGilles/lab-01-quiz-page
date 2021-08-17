@@ -19,7 +19,8 @@ buttonEl.addEventListener('click', () => {
     if (countsAsAYes(answer3)) correctResponses++;
     resultsEl.textContent = `Hey ${firstName} ${lastName} you got ${correctResponses} correct out of 3!`;
     resultsEl.style.display = 'inline'; // update DOM to reflect the new state
+    
 });
   
-   
+ 
   
