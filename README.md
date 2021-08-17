@@ -9,3 +9,12 @@
 8) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
 9) Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.
 
+## Html
+1)  images at the top
+        needed to fulfill assignment
+    sections for data
+        ""
+    button element
+        so that I can attach an event listener
+    result area
+        to display the results of function
